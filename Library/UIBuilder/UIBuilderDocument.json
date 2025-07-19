@@ -1,0 +1,77 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "BuilderDocument",
+        "m_EditorClassIdentifier": "UnityEditor.UIBuilderModule:Unity.UI.Builder:BuilderDocument",
+        "m_SavedBuilderUxmlToThemeStyleSheetList": [],
+        "m_CurrentCanvasTheme": 4,
+        "m_CurrentCanvasThemeStyleSheetReference": {
+            "fileID": -4733365628477956816,
+            "guid": "cbb869c0215f29246841102548b49c2b",
+            "type": 3
+        },
+        "m_CodePreviewVisible": true,
+        "m_OpenUXMLFiles": [
+            {
+                "m_OpenUSSFiles": [
+                    {
+                        "m_StyleSheet": {
+                            "fileID": 7433441132597879392,
+                            "guid": "a04a27c317812294c9d933afeda2e247",
+                            "type": 3
+                        },
+                        "m_BackupStyleSheet": {
+                            "instanceID": 0
+                        },
+                        "m_OldPath": "Assets/UI/Global Stylesheet.uss"
+                    }
+                ],
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/Main Menu Templete.uxml",
+                "m_VisualTreeAsset": {
+                    "fileID": 9197481963319205126,
+                    "guid": "bcb8e2791a55f1844997cf0aac347980",
+                    "type": 3
+                },
+                "m_ActiveStyleSheet": {
+                    "fileID": 7433441132597879392,
+                    "guid": "a04a27c317812294c9d933afeda2e247",
+                    "type": 3
+                },
+                "m_Settings": {
+                    "UxmlGuid": "bcb8e2791a55f1844997cf0aac347980",
+                    "UxmlPath": "Assets/UI/Main Menu Templete.uxml",
+                    "CanvasX": 0,
+                    "CanvasY": 0,
+                    "CanvasWidth": 1920,
+                    "CanvasHeight": 1080,
+                    "MatchGameView": false,
+                    "ZoomScale": 0.550000011920929,
+                    "PanOffset": {
+                        "x": -12.951431274414063,
+                        "y": 137.87283325195313
+                    },
+                    "ColorModeBackgroundOpacity": 1.0,
+                    "ImageModeCanvasBackgroundOpacity": 1.0,
+                    "CameraModeCanvasBackgroundOpacity": 1.0,
+                    "EnableCanvasBackground": true,
+                    "CanvasBackgroundMode": 2,
+                    "CanvasBackgroundColor": {
+                        "r": 0.0,
+                        "g": 0.0,
+                        "b": 0.0,
+                        "a": 1.0
+                    },
+                    "CanvasBackgroundImage": {
+                        "instanceID": 0
+                    },
+                    "CanvasBackgroundImageScaleMode": 1,
+                    "CanvasBackgroundCameraName": "Main Camera"
+                },
+                "m_OpenSubDocumentParentIndex": -1,
+                "m_OpenSubDocumentParentSourceTemplateAssetIndex": -1
+            }
+        ],
+        "m_ActiveOpenUXMLFileIndex": 0
+    }
+}
