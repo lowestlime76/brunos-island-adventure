@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 using RPG.Utility;
 using RPG.Core;
 
@@ -16,6 +17,7 @@ namespace RPG.Character
 
         [SerializeField] private int potionCount = 1;
         [SerializeField] private float healAmount = 15f;
+        [NonSerialized] public Slider sliderCmp;
 
         private Animator animatorCmp;
         private BubbleEvent bubbleEventCmp;
@@ -26,6 +28,7 @@ namespace RPG.Character
         {
             animatorCmp = GetComponentInChildren<Animator>();
             bubbleEventCmp = GetComponentInChildren<BubbleEvent>();
+            sliderCmp = GetComponentInChildren<Slider>();
         }
 
         private void OnEnable()
@@ -53,6 +56,11 @@ namespace RPG.Character
             if (CompareTag(Constants.PLAYER_TAG))
             {
                 EventManager.RaiseChangePlayerHealth(healthPoints);
+            }
+
+            if (sliderCmp != null)
+            {
+                sliderCmp.value = healthPoints;
             }
 
             if (healthPoints == 0)

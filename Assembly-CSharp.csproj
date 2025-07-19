@@ -81,6 +81,7 @@
     <Compile Include="Assets\Examples\Robot.cs" />
     <Compile Include="Assets\Scripts\Character\AIBaseState.cs" />
     <Compile Include="Assets\Scripts\Character\AIChaseState.cs" />
+    <Compile Include="Assets\Scripts\Utility\Billboard.cs" />
     <Compile Include="Assets\Scripts\Character\Health.cs" />
     <Compile Include="Assets\Scripts\Character\Combat.cs" />
     <Compile Include="Assets\Scripts\Utility\BubbleEvent.cs" />

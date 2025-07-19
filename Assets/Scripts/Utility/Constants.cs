@@ -8,5 +8,6 @@ namespace RPG.Utility
         public const string ENEMY_TAG = "Enemy";
         public const string ATTACK_ANIMATOR_PARAM = "attack";
         public const string DEFEATED_ANIMATOR_PARAM = "defeated";
+        public const string CAMERA_TAG = "MainCamera";
     }
 }

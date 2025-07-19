@@ -534,6 +534,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Stationary Guard
       objectReference: {fileID: 0}
+    - target: {fileID: 2805237303739187842, guid: 95453fb4fb8f36d4d821c74c6807671e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2805237303739187842, guid: 95453fb4fb8f36d4d821c74c6807671e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3956921135509133045, guid: 95453fb4fb8f36d4d821c74c6807671e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.97
@@ -5433,6 +5441,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5694321887138948076, guid: cb831ea97a647704aba77411d291876b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845947728060184475, guid: cb831ea97a647704aba77411d291876b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845947728060184475, guid: cb831ea97a647704aba77411d291876b, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8291737465842324945, guid: cb831ea97a647704aba77411d291876b, type: 3}
@@ -75880,6 +75896,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6845947728060184475, guid: cb831ea97a647704aba77411d291876b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845947728060184475, guid: cb831ea97a647704aba77411d291876b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8291737465842324945, guid: cb831ea97a647704aba77411d291876b, type: 3}
       propertyPath: m_Name
       value: Enemy Patrol Guard (1)
@@ -76756,6 +76780,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5694321887138948076, guid: cb831ea97a647704aba77411d291876b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845947728060184475, guid: cb831ea97a647704aba77411d291876b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6845947728060184475, guid: cb831ea97a647704aba77411d291876b, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8291737465842324945, guid: cb831ea97a647704aba77411d291876b, type: 3}
