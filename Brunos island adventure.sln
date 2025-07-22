@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink-Libraries", "Ink-Libraries.csproj", "{0029FB02-7D36-D21F-55B2-E87C65999AF7}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{77FCCA15-E43C-ECBE-A6D0-CE87F7030621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InkEditor", "InkEditor.csproj", "{95A9FAE7-497D-825A-5817-9AB339853638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0029FB02-7D36-D21F-55B2-E87C65999AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0029FB02-7D36-D21F-55B2-E87C65999AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0029FB02-7D36-D21F-55B2-E87C65999AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0029FB02-7D36-D21F-55B2-E87C65999AF7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{77FCCA15-E43C-ECBE-A6D0-CE87F7030621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{77FCCA15-E43C-ECBE-A6D0-CE87F7030621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77FCCA15-E43C-ECBE-A6D0-CE87F7030621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77FCCA15-E43C-ECBE-A6D0-CE87F7030621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A9FAE7-497D-825A-5817-9AB339853638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A9FAE7-497D-825A-5817-9AB339853638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A9FAE7-497D-825A-5817-9AB339853638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A9FAE7-497D-825A-5817-9AB339853638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

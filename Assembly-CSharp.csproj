@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Core\EventManager.cs" />
     <Compile Include="Assets\Scripts\Character\AIReturnState.cs" />
     <Compile Include="Assets\Scripts\UI\UIMainMenuState.cs" />
+    <Compile Include="Assets\Scripts\Character\NPCController.cs" />
     <Compile Include="Assets\Scripts\Character\AIDefeatedState.cs" />
     <Compile Include="Assets\Scripts\Character\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Character\PlayerController.cs" />
@@ -88,6 +89,7 @@
     <Compile Include="Assets\Scripts\UI\UIController.cs" />
     <Compile Include="Assets\Scripts\Character\Patrol.cs" />
     <Compile Include="Assets\Scripts\Quests\TreasureChest.cs" />
+    <Compile Include="Assets\Scripts\UI\UIDialogueState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\Global Stylesheet.uss" />
@@ -1089,6 +1091,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="InkEditor.csproj" />
+    <ProjectReference Include="Ink-Libraries.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

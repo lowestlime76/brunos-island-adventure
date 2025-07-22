@@ -4,6 +4,7 @@ using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using RPG.Core;
+using Ink.Parsed;
 
 namespace RPG.UI
 {
@@ -18,6 +19,7 @@ namespace RPG.UI
         public Label potionsLabel;
         public UIBaseState currentState;
         public UIMainMenuState mainMenuState;
+        public UIDialogueState dialogueState;
         public int currentSelection = 0;
 
         private void Awake()
@@ -31,12 +33,14 @@ namespace RPG.UI
             potionsLabel = playerInfoContainer.Q<Label>("potions-label");
 
             mainMenuState = new UIMainMenuState(this);
+            dialogueState = new UIDialogueState(this);
         }
 
         private void OnEnable()
         {
             EventManager.OnChangePlayerHealth += HandleChangePlayerHealth;
             EventManager.OnChangePlayerPotions += HandleChangePlayerPotions;
+            EventManager.OnInitiateDialogue += HandleInitiateDialogue;
         }
         // Start is called before the first frame update
         void Start()
@@ -59,6 +63,7 @@ namespace RPG.UI
         {
             EventManager.OnChangePlayerHealth -= HandleChangePlayerHealth;
             EventManager.OnChangePlayerPotions -= HandleChangePlayerPotions;
+            EventManager.OnInitiateDialogue -= HandleInitiateDialogue;
         }
 
         public void HandleInteract(InputAction.CallbackContext context)
@@ -91,6 +96,12 @@ namespace RPG.UI
         private void HandleChangePlayerPotions(int newPotionCount)
         {
             potionsLabel.text = newPotionCount.ToString();
+        }
+
+        private void HandleInitiateDialogue(TextAsset inkJSON)
+        {
+            currentState = dialogueState;
+            currentState.EnterState();
         }
     }
 }
